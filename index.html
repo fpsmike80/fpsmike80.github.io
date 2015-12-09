@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Mike Bejaniance
+Michael_bejaniance@student.uml.edu
+AS9
+-->
+<html>
+    <head>
+        <title>AS 9</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="AS9.css">
+        <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src ="AS9.js"></script>
+    </head>
+    <body>
+        <div id="scrabbleLine">
+            <table>
+                <tr><!--Table to place the line images-->
+                    <td><img id="1" class="lineTile" title="tripleLetter" src="img/Scrabble_Board_Triple_Letter.JPG"></td>
+                    <td><img id="2" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
+                    <td><img id="3" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
+                    <td><img id="4" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
+                    <td><img id="5" class="lineTile" title="doubleWord" src="img/Scrabble_Board_Double_Word.JPG"></td>
+                    <td><img id="6" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
+                    <td><img id="7" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
+                    <td><img id="8" class="lineTile" title="doubleLetter" src="img/Scrabble_Board_Double_Letter.JPG"></td>
+                </tr>
+            </table>
+        </div>
+ 
+        <!--
+            Found the image for the rack from this piazza post https://piazza.com/class/icm9jynacvn5kx?cid=38
+        -->
+        <div id="rackDiv"><!--Div to place the rack-->
+            <img id="rack" src="img/scrabbleTileRack2.png">
+            <div id="theRack"></div>
+        </div>
+
+        <div><!--Div to place the score and new tile button-->
+            <div id="tileButtonDiv">
+                <button onclick="makeRack()" id="newTileButton">Generate New Tiles</button>
+                <h3>Score:<span id="scoreHere">0</span></h3>
+            </div>
+        </div>
+
+
+
+</body>
+</html>

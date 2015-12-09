@@ -1,0 +1,35 @@
+/* 
+    Author     : Michael Bejaniance
+*/
+
+.scrabbleTile {
+    margin-right: 20px;
+    width:100px;
+    height:100px;
+
+}
+
+.lineTile {
+    width:100px;
+    height:100px;
+}
+
+#rack {
+    width:1140px;
+    height:240px;
+}
+
+#rackDiv {
+    position: relative;
+}
+
+#playerRack {
+    position: absolute;
+    bottom: 45px;
+    left: 75px;
+}
+
+img {
+    margin-left:5px;
+    margin-right:5px;
+}
