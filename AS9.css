@@ -2,6 +2,11 @@
     Author     : Michael Bejaniance
 */
 
+body{
+    background-image: url("http://www.mrwallpaper.com/wallpapers/gradient-background.jpg")
+    
+}
+
 .scrabbleTile {
     margin-right: 20px;
     width:100px;
@@ -14,13 +19,13 @@
     height:100px;
 }
 
+#rackDiv {
+    position: relative;
+}
+
 #rack {
     width:1140px;
     height:240px;
-}
-
-#rackDiv {
-    position: relative;
 }
 
 #playerRack {

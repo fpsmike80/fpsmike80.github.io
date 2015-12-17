@@ -18,10 +18,10 @@ AS9
         <script type="text/javascript" src ="AS9.js"></script>
     </head>
     <body>
-        <div id="scrabbleLine">
+        <div id="scrabbleLine" style="text-align: center">
             <table>
                 <tr><!--Table to place the line images-->
-                    <td><img id="1" class="lineTile" title="tripleLetter" src="img/Scrabble_Board_Triple_Letter.JPG"></td>
+                    <td><img id="1" class="lineTile" title="tripleLetter" src="img/Scrabble_Board_Triple_Letter.JPG" ></td>
                     <td><img id="2" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
                     <td><img id="3" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
                     <td><img id="4" class="lineTile" title="blank" src="img/Scrabble_Board_Blank.JPG"></td>
@@ -36,13 +36,13 @@ AS9
         <!--
             Found the image for the rack from this piazza post https://piazza.com/class/icm9jynacvn5kx?cid=38
         -->
-        <div id="rackDiv"><!--Div to place the rack-->
+        <div id="rackDiv" style="text-align: center"><!--Div to place the rack-->
             <img id="rack" src="img/scrabbleTileRack2.png">
-            <div id="theRack"></div>
+            <div id="theRack" style="text-align: center"></div>
         </div>
 
         <div><!--Div to place the score and new tile button-->
-            <div id="tileButtonDiv">
+            <div id="tileButtonDiv" style="text-align: center">
                 <button onclick="makeRack()" id="newTileButton">Generate New Tiles</button>
                 <h3>Score:<span id="scoreHere">0</span></h3>
             </div>
